@@ -1,6 +1,6 @@
 {
   "name": "@muzamint/create-project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI for interacting with ethereum networks",
   "main": "src/index.js",
   "bin": {
