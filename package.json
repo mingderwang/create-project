@@ -20,6 +20,8 @@
   "author": "Ming-der Wang <mingderwang@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "esm": "^3.2.25"
+    "arg": "^5.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.0.0"
   }
 }
