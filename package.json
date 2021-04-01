@@ -1,0 +1,25 @@
+{
+  "name": "@muzamint/create-project",
+  "version": "0.0.1",
+  "description": "A CLI for interacting with ethereum networks",
+  "main": "src/index.js",
+  "bin": {
+    "@muzamint/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "Ming-der Wang <mingderwang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
