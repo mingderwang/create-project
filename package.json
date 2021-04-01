@@ -4,7 +4,7 @@
   "description": "A CLI for interacting with ethereum networks",
   "main": "src/index.js",
   "bin": {
-    "@muzamint/create-project": "bin/create-project",
+    "project": "bin/create-project",
     "create-project": "bin/create-project"
   },
   "publishConfig": {
