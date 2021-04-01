@@ -10,3 +10,9 @@ create-project typescript --git
 ```
 create-project typescript --git --install
 ```
+# make your own
+If you want to make your code consumable as an actual module so that others can reuse your logic in their code, we'll have to add an index.js file to our src/ directory that exposes the content from main.js:
+```
+require = require('esm')(module);
+require('../src/cli').cli(process.argv);
+```
