@@ -1,5 +1,5 @@
 # refer to
-https://www.twilio.com/blog/how-to-build-a-cli-with-node-js
+* https://www.twilio.com/blog/how-to-build-a-cli-with-node-js
 # test
 ```
 mkdir ~/test-dir
@@ -16,3 +16,18 @@ If you want to make your code consumable as an actual module so that others can 
 require = require('esm')(module);
 require('../src/cli').cli(process.argv);
 ```
+# npm publish
+```
+npm pack --dry-run
+```
+or
+```
+np
+```
+# fork from
+npm init @dkundel/project
+
+* Email: dkundel@twilio.com
+* Twitter: @dkundel
+* GitHub: dkundel
+* dkundel.com
