@@ -6,3 +6,7 @@ mkdir ~/test-dir
 cd ~/test-dir
 create-project typescript --git
 ```
+# test with install
+```
+create-project typescript --git --install
+```
