@@ -1,0 +1,13 @@
+{
+  "name": "bbc",
+  "version": "1.0.0",
+  "description": "test cli with caporal"
+  "author": "Ming-der Wang",
+  "license": "MIT",
+  "bin": {
+    "bbc": "src/index.js"
+  },
+  "dependencies": {
+    "caporal": "^1.4.0"
+  }
+}
